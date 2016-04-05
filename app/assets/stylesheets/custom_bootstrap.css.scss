@@ -1,0 +1,154 @@
+html, html a {
+     text-rendering: optimizeLegibility !important;
+     -webkit-font-smoothing: antialiased;
+     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+html, body {
+  height: 100%;
+}
+
+// NAVBAR
+
+.navbar {
+font-size: 15px;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+a.navbar-brand {
+text-transform: lowercase;
+}
+
+.navbar-default {
+  background-color: rgba(37, 55, 123, 0.75);
+  border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+border-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+background-color: white;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+background-color: transparent;
+border: 1px solid white;
+}
+
+// BUTTONS
+
+.btn {
+	text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+	padding: 10px 20px;
+	border: transparent;
+  opacity: 0.8;
+  max-width: 240px;
+  margin: auto;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+	padding: 15px 30px;
+}
+
+.btn-sm, .btn-group-sm > .btn {
+	padding: 8px 15px;
+}
+
+.btn-xs, .btn-group-xs > .btn {
+padding: 5px 10px;
+font-size: 12px;
+}
+
+// FONTS
+
+p.small {
+font-size: 14px;
+font-weight: 400;
+}
+
+// LOGIN
+
+.jumbotron {
+    margin-top: 90px;
+    margin-bottom: 80px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.jumbotron h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #25377B;
+}
+
+.jumbotron p {
+  color: #25377B;
+  font-weight: 500;
+}
+
+p {
+	font-weight: 600;
+	font-size: 16px;
+}
+
+// Landing
+
+body {
+  background: transparent;
+}
+
+.background-image {
+	background: image-url("bg.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: -65px;
+  height: 100%;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.white {
+  color: white;
+}
+.icon-bar {
+	background-color: transparent;
+}
+
+// Dashboard
+
+.dash-box {
+background: #AEAEAE;
+padding-left: 10px;
+padding-top: 1px;
+margin-top: 15px;
+height: 40px;
+}
+
+// Book Show
+
+.justify {
+	text-align: justify !important;
+}
+
+.thumbnail {
+  background-color: #d7d7d7;
+  opacity: 0.8;
+}
+
+.thumbnail p {
+  text-align: center;
+  margin: auto;
+}
+
+
+.container {
+  margin-bottom: 10px;
+}
